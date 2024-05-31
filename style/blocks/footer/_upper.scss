@@ -1,0 +1,34 @@
+.upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &__nav {
+        display: flex;
+        flex-direction: row;
+        gap:70px;
+        &__p3 {
+            @extend %p3;
+            color: #999999;
+            cursor: pointer;
+        }
+    }
+
+    &__hr {
+        margin: 0;
+        @extend %line;
+        color: #CBCBCB;
+        margin-top: 30px;
+        margin-bottom: 55px;
+    }
+}
+
+@media(max-width:1024px) {
+    .upper {
+        &__nav {
+            gap:32px;
+            &__p3 {
+                font-size: 14px;
+            } 
+        }
+    }
+}

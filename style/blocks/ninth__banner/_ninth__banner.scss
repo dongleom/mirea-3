@@ -1,0 +1,14 @@
+.ninth__banner {
+    margin-top: 220px;
+    &__h3 {
+        margin: 0  auto;
+        align-items: center;
+        max-width: 405px;
+        text-align: center;
+        line-height: 58px;
+        @extend %h3;
+        &__span {
+            color: #6C5FBC;
+        }
+    }
+}

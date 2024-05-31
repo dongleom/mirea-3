@@ -1,0 +1,17 @@
+.down {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    &__p3 {
+        @extend %p3;
+    }
+
+    &__social {
+        cursor: pointer;;
+    }
+}
+
+footer {
+    background-color: #EAEAEA;
+}

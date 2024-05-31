@@ -1,0 +1,167 @@
+%h1 {
+    color: #2B2B2B;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+%h2 {
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58.198px; /* 116.396% */
+    text-transform: capitalize;
+}
+
+%h3 {
+    color: #2B2B2B;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.558px; /* 56.797% */
+}
+
+%h4 {
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 28.271px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 135%; /* 38.165px */
+    letter-spacing: 0.314px;
+}
+
+%h5 {
+    color: #2B2B2B;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 21.988px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 32.982px */
+    letter-spacing: 0.314px;
+}
+
+%h6 {
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26.743px; /* 157.311% */
+    text-transform: capitalize;
+}
+
+%h7 {
+    color: #2B2B2B;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 23.054px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37.463px; /* 162.5% */
+}
+
+%p1 {
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.502px; /* 152.512% */
+}
+
+%p2 {
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 20.893px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31.34px; /* 150% */
+}
+
+%p3 {
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.743px; /* 157.311% */
+    text-transform: capitalize;
+}
+
+%p4 {
+    color: #2B2B2B;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 11.422px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+%purple_button {
+    display: flex;
+    padding: 17.829px 26.743px;
+    align-items: flex-start;
+    gap: 11.143px;
+    border-radius: 17.829px;
+    background: #6C5FBC;
+    color: #F9F9F9;
+    font-family: Poppins;
+    font-size: 17.829px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26.743px; /* 150% */
+    text-transform: capitalize;
+}
+
+%purple_button2 {
+    display: inline-flex;
+    padding: 17px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12.412px;
+    background: #6C5FBC;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16.271px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.163px;
+    text-transform: capitalize;
+}
+
+%white_button {
+    display: inline-flex;
+    height: 59px;
+    padding: 17px 27px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12.412px;
+    border: 1.5px solid #6C5FBC;
+    color: #6C5FBC;
+    font-family: Poppins;
+    font-size: 16.271px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.163px;
+    text-transform: capitalize;
+}
+
+%line {
+    background: #CBCBCB;
+    height: 1px;
+}

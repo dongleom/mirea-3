@@ -1,0 +1,198 @@
+.fourth__banner {
+  
+        
+    &__h3 {
+        @extend %h3;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        &__span {
+            color: #6C5FBC;
+        }
+    }
+
+    &__cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap:32px;
+
+        &__card1 {
+            cursor: pointer;
+            width: 33%;
+            border-radius: 30px;
+            background-color: #fff;
+            box-shadow: 5.946px 71.348px 35.674px 0px rgba(229, 229, 229, 0.70);
+
+            &__img {
+                width: 100%;
+            }
+
+            &__text {
+                gap:8px;
+                margin-left: 32px;
+                display: flex;
+                flex-direction: column;
+                &__p4 {
+                    margin: 0;
+                    margin-top: 8px;
+                    max-width: 10%;
+                    @extend %p4;
+                    border-radius: 5.4px;
+                    background: #F7EDD0;    
+                    display: inline-flex;
+                    padding: 4px 8px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    color: #DAA31A;
+                }
+
+                &__h7 {
+                    @extend %h7;
+                    margin: 0;
+                }
+
+                &__horizontal {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 8px;
+                    margin-bottom: 12px;
+
+                    &__p3 {
+                        margin: 0;
+                        @extend %p3;
+                        color: #8E97A6;
+                    }
+                }
+            }
+        }
+        
+        &__card2 {
+            cursor: pointer;
+            width: 33%;
+            border-radius: 30px;
+            background-color: #fff;
+            box-shadow: 5.946px 71.348px 35.674px 0px rgba(229, 229, 229, 0.70);
+
+            &__img {
+                width: 100%;
+            }
+
+            &__text {
+                gap:8px;
+                margin-left: 32px;
+                display: flex;
+                flex-direction: column;
+                &__p4 {
+                    margin: 0;
+                    margin-top: 8px;
+                    max-width: 10%;
+                    @extend %p4;
+                    border-radius: 5.4px;
+                    background: #F7C5BA;  
+                    display: inline-flex;
+                    padding: 4px 8px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    color: #FB471D;
+                }
+
+                &__h7 {
+                    @extend %h7;
+                    margin: 0;
+                }
+
+                &__horizontal {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 8px;
+                    margin-bottom: 12px;
+
+                    &__p3 {
+                        margin: 0;
+                        @extend %p3;
+                        color: #8E97A6;
+                    }
+                }
+            }
+        }
+
+    }
+
+    &__down {
+        cursor: pointer;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        justify-content: flex-end;
+        &__p2 {
+            @extend %p2;
+            color: #ACADB9;
+        }
+    }
+}
+
+@media(max-width:1024px) {
+    .fourth__banner {
+        &__cards {
+            &__card1 {
+                &__text {
+                    gap: 4px;
+                    &__p4 {
+                        padding: 4px 16px;
+                    }
+                    &__h7 {
+                        font-size: 18px;
+                    }
+
+                    &__horizontal {
+                        &__p3 {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            &__card2 {
+                &__text {
+                    gap: 4px;
+                    &__p4 {
+                        padding: 4px 16px;
+                    }
+                    &__h7 {
+                        font-size: 18px;
+                    }
+
+                    &__horizontal {
+                        &__p3 {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width:812px) {
+    .fourth__banner {
+        &__cards {
+            display: flex;
+            flex-direction: column;
+            &__card1 {
+                width: 100%;
+            }
+
+            &__card2 {
+                width: 100%;
+            }
+        }
+    }
+}

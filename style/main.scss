@@ -1,0 +1,85 @@
+body {
+    background-color: #f9f9f9;
+    margin: 0 !important;
+}
+.container {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+@media(max-width:812px) {
+    .container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media(max-width:680px) {
+    .container {
+        padding: 0 15px;
+    }
+    .fifth__banner__buttons__button1{
+        width: 14%;
+    }
+    .fifth__banner__h3{
+        line-height: normal !important;
+    }
+    footer{
+        .container {
+            margin: 0;
+        }
+    }
+    .seventh__banner__h3 {
+        line-height: normal !important;
+    }
+    .container{
+        margin: 0;
+    }
+    .fifth__banner__buttons{
+        flex-wrap: wrap;
+    }
+    .sixth__banner__block{
+        width: 80%;
+    }
+    .sixth__banner__block__horizontal{
+        gap: 15px !important;
+    }
+    .sixth__banner__block__card1{
+        width: 100% !important;
+    }
+    .sixth__banner__block__card2{
+        width: 100% !important;
+    }
+    .upper__nav {
+        flex-wrap: wrap;
+    }
+    .fourth__banner__h3__span{
+        line-height: normal;
+    }
+}
+
+.hr {
+    @extend %line;
+    color: #CBCBCB;
+    margin-top: 120px;
+}
+
+.footer {
+    background: #EAEAEA;
+}
+@import "./mod";
+@import "./blocks/header/header";
+@import "./blocks/first__banner/first__banner";
+@import "./blocks/second__banner/second__banner";
+@import "./blocks/third__banner/third__banner";
+@import "./blocks/fourth__banner/fourth__banner";
+@import "./blocks/fifth__banner/fifth__banner";
+@import "./blocks/sixth__banner/sixth__banner";
+@import "./blocks/seventh__banner/seventh__banner";
+@import "./blocks/eighth__banner/eighth__banner.scss";
+@import "./blocks/ninth__banner/ninth__banner";
+@import "./blocks/footer/down";
+@import "./blocks/footer/upper";
+@import "./blocks/acc/acc";
+@import "./blocks/modal/modal";
+@import "./blocks/burger/burger"

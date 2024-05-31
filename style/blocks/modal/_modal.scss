@@ -1,0 +1,71 @@
+.modal {
+    position: relative;
+    width: 641px;
+    height: 313px;
+    border-radius: 52px;
+    background: #D9D9D9;
+    backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    svg {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      transform: rotate(45deg);
+    }
+    .title {
+      color: #6C5FBC;
+      font-family: Poppins;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: 0;
+    }
+    .buttons {
+      .yes {
+        width: 237px;
+        height: 68px;
+        border-radius: 38.5px;
+        background: #6C5FBC;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 37px;
+        border: none;
+      }
+      .no {
+        width: 237px;
+        height: 68px;
+        border-radius: 38.5px;
+        background: #929292;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 37px;
+        border: none;
+      }
+    }
+  }
+  .modal-box {
+    display: none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .56);
+    &_active {
+      display: block;
+    }
+  }

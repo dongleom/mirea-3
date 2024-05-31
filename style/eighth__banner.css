@@ -1,0 +1,31 @@
+.eighth__banner {
+  margin-top: 180px;
+  background-image: url("images/bg2.png");
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.eighth__banner__img {
+  height: 100%;
+  margin-right: 70px;
+}
+.eighth__banner__left__h1 {
+  margin: 0;
+  margin-left: 70px;
+  margin-top: 40px;
+  color: #FFF;
+}
+.eighth__banner__left__input {
+  margin-bottom: 60px;
+  margin-left: 70px;
+  display: inline-flex;
+  padding: 8px;
+  align-items: center;
+  gap: 63px;
+  border-radius: 14.234px;
+  background: #FFF;
+  box-shadow: 0px 7.253px 45.333px 0px rgba(0, 0, 0, 0.1);
+  color: #878787;
+}/*# sourceMappingURL=eighth__banner.css.map */

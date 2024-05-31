@@ -1,0 +1,241 @@
+.sixth__banner {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    &__h2 {
+        @extend %h2;
+        &__span {
+            color: #6C5FBC;
+        }
+    }
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 25.129px;
+        border: 1.571px solid var(--Greyscale-200, #EDF2F7);
+        background-color: #FFF;
+        gap: 20px;
+        box-shadow: 6.848px 82.181px 41.091px 0px rgba(229, 229, 229, 0.70);
+
+       &__horizontal {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 60px;
+        &__h4 {
+            @extend %h4;
+        }
+
+        &__button {
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            border-radius: 12.565px;
+            background: var(--Greyscale-50, #FAFAFA);
+            display: flex;
+            width: 175.906px;
+            height: 53.4px;
+            padding: 12.565px 18.847px;
+            justify-content: center;
+            align-items: center;
+            gap: 6.282px;
+            flex-shrink: 0;
+
+            &__p2 {
+                @extend %p2;
+            }
+        }
+       }
+
+       &__card1 {
+        background-color: #FFF;
+        flex-direction: column;
+        display: flex;
+        padding: 25.129px;
+        gap: 20.418px;
+        flex-shrink: 0;
+        border-radius: 18.847px;
+        border: 1.571px solid var(--Greyscale-200, #EDF2F7);
+        justify-content: space-between;
+        &__left {
+            background-color: #FFF;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            &__text {
+                background-color: #FFF;
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                &__svg {
+                    display: flex;
+                    padding: 12px 13px;
+                    align-items: center;
+                    gap: 10px;
+                    border-radius: 1570.588px;
+                    background: #F4F0FF;
+                }
+    
+                &__text {
+                    
+                    &__h6 {
+                        @extend %h6;
+                        margin: 0;
+                    }
+                    &__p3 {
+                        @extend %p3;
+                        margin: 0;
+                        color: #A0AEC0;
+                    }
+                }
+            }
+            
+
+            
+        }
+
+        &__h5 {
+            @extend %h5;
+            margin: 0;
+        }
+
+        
+        }
+
+        &__card2 {
+            flex-direction: column;
+            display: flex;
+            padding: 25.129px;
+            gap: 20.418px;
+            flex-shrink: 0;
+            border-radius: 18.847px;
+            border: 1.571px solid var(--Greyscale-200, #EDF2F7);
+            justify-content: space-between;
+            &__left {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+    
+                &__text {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+                    &__svg {
+                        display: flex;
+                        padding: 12px 13px;
+                        align-items: center;
+                        gap: 10px;
+                        border-radius: 1570.588px;
+                        background: #F2FDF6;
+                    }
+        
+                    &__text {
+                        
+                        &__h6 {
+                            @extend %h6;
+                            margin: 0;
+                        }
+                        &__p3 {
+                            @extend %p3;
+                            margin: 0;
+                            color: #A0AEC0;
+                        }
+                    }
+                }
+                
+    
+                
+            }
+    
+            &__h5 {
+                @extend %h5;
+                margin: 0;
+            }
+    
+            
+            }
+    }
+}
+
+@media(max-width:1024px) {
+    .sixth__banner {
+        &__h2 {
+            font-size: 40px;
+        }
+
+        &__block {
+            padding: 20px;
+            &__horizontal {
+                gap: 130px;
+                &__h4 {
+                    font-size: 20px;
+                }
+                &__button {
+                    
+                    padding: 2px 4px;
+                    &__p2 {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            &__card1 {
+                padding: 16px 16px;
+                &__left {
+                    &__text {
+                        &__text {
+                            &__h6 {
+                                font-size: 14px;
+                            }
+                            &__p3 {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+                &__h5 {
+                    font-size: 16px;
+                }
+            }
+
+            &__card2     {
+                padding: 16px 16px;
+                &__left {
+                    &__text {
+                        &__text {
+                            &__h6 {
+                                font-size: 14px;
+                            }
+                            &__p3 {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+                &__h5 {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:812px) {
+    .sixth__banner {
+        display: flex;
+        flex-direction: column;
+        &__h2 {
+            font-size: 36px;
+        }
+    }
+}
